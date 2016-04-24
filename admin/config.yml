@@ -1,0 +1,35 @@
+backend:
+  name: github-api
+  repo: tpvsports/tpvsports # Path to your Github repository
+  branch: master # Branch to update (master by default)
+
+media_folder: "static/uploads" # Folder where user uploaded files should go
+public_folder: "static"
+
+collections: # A list of collections the CMS should be able to edit
+  - name: "podcast" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Post" # Used in the UI, ie.: "New Post"
+    folder: "content/podcast" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields each document in this collection have
+      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
+      - {label: "Author", name: "author", widget: "string"}
+      - {label: "Episode", name: "episode", widget: "number"}
+      - {label: "Soundcloud Embed", name: "soundcloud", widget: "string"}
+      - {label: "Description", name: "description", widget: "markdown"}  
+      - {label: "Body (this does not show up on the podcast page)", name: "body", widget: "markdown"}   
+    meta: # Meta data fields. Just like fields, but without any preview element
+      - {label: "Slug (episode-title): copy from above, or create your own", name: "slug", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Tags (seperated by comma)", name: "tags", widget: "tags"}
+  - name: "page"
+    label: "Menu Page"
+    folder: "content" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields each document in this collection have
+      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
+      - {label: "Menu", name: "menu", widget: "string", optional: false}
+      - {label: "Description", name: "description", widget: "markdown"}
+      - {label: "Body", name: "body", widget: "markdown"} 
+    meta: # Meta data fields. Just like fields, but without any preview element
+      - {label: "Publish Date", name: "date", widget: "datetime"}

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Podcast on The People&#39;s Voice Sports Podcast</title>
+    <link>http://www.tpvsports.net/podcast/</link>
+    <description>Recent content in Podcast on The People&#39;s Voice Sports Podcast</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 06 Feb 2016 20:00:00 +0000</lastBuildDate>
+    <atom:link href="http://www.tpvsports.net/podcast/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>The Everyday Voice</title>
+      <link>http://www.tpvsports.net/2016/02/06/the-everyday-voice</link>
+      <pubDate>Sat, 06 Feb 2016 20:00:00 +0000</pubDate>
+      
+      <guid>http://www.tpvsports.net/2016/02/06/the-everyday-voice</guid>
+      <description>&lt;p&gt;Listen to the latest episode of The People&amp;rsquo;s Voice Sportscast, where we discuss:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Super Bowl 50 (2:13)&lt;/li&gt;
+&lt;li&gt;Cam Newton (7:27) &lt;strong&gt;and&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;The OKC Thunder vs. Golden State Warriors&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
