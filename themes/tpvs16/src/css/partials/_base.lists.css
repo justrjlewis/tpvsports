@@ -1,9 +1,0 @@
-ul {
-  margin-left: 25px;
-}
-.o-list {
-  list-style-type: none;
-  &__inline li {
-    display: inline-block;
-  }
-}
